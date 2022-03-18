@@ -1,0 +1,59 @@
+/* Use this file to use your own styles*/
+
+/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* Styles for the body */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #444444;
+	background-color: #9779bd;
+}
+
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+
+.resume-header {
+    background-color: #b59fd0;
+}
+
+.resume-main {
+	background-color: #FFFFFF;
+}
+
+.resume-aside {
+	background-color: #e1d9ec;
+}
+
+/* Styles for lists in the document */
+
+.biography-details li::before, .skill-list li::before {
+	content: ">";
+	font-weight: 800;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.biography-details li::before {
+	color: #9779bd;
+}
+
+.biography-details li, .skill-list li {
+	padding-left: 1em;
+}
+
+/* Styles for contact icons */
+
+.contact-icon {
+	height: 1em;
+	flex-basis: 1.4em;
+}
+
+.language-progress {
+	background-color: #9779bd;
+
+}
+.border-2 {
+	border: 3px solid #400909 !important;
+}
